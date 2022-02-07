@@ -95,7 +95,7 @@ header {
 .vitrine {
     min-height: 600px;
     width: 100%;
-    background-image: url(fotofundo.jpg);
+    background-image:fotofundo.jpg;
     background-position: center;
     background-size: cover;
     display: flex;
