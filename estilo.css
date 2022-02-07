@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #ccc;
+}
+
+/*
+  Boot CSS
+*/
+
+.center {
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.align-flex-end {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* fim Boot CSS */
+
+header {
+    height: 80px;
+    background-color: #131921;
+    color: white;
+    padding: 10px 0;
+}
+.logo img {
+    width: 100px;
+}
+
+.logo {
+    padding: 0 9px;
+}
+
+.input-search {
+    width: 70%;
+    display: flex;
+    padding: 0 10px;
+}
+
+.input-search form {
+    display: flex;
+    width: 100%;
+}
+
+.input-search input[type=text] {
+    width: calc(100% - 40px);
+    height: 40px;
+}
+
+.input-search button {
+    width: 40px;
+    border: 0;
+    height: 40px;
+    background-color: #febd68;
+}
+
+.text-info-header {
+    height: 50px;
+    font-size: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 8px 0;
+}
+
+.text-info-header p {
+    white-space: nowrap;
+}
+
+.text-info-header:hover {
+    outline: 2px solid white;
+    border-radius: 3px;
+}
+
+/* Banner Principal*/
+
+.vitrine {
+    min-height: 600px;
+    width: 100%;
+    background-image: url(../Fotografias/fotofundo.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    
+    justify-content: space-around;
+}
+
+.box-vitrine {
+    position: relative;
+    top: 15px;
+    width: 22%;
+    background-color: white;
+    padding: 8px 12px;
+}
+
+.box-vitrine img {
+    width: 100%;
+}
+
+.box-vitrine a {
+    color: #069;
+    font-size: 13px;
+}
